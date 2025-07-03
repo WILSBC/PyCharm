@@ -38,7 +38,8 @@ Este é um projeto desenvolvido com Flask durante as aulas do curso técnico no 
 
 -> Acesse seu perfil após o login.
 
-![Captura de tela 2025-07-03 201913](https://github.com/user-attachments/assets/2cfc01ac-e64a-4df4-b12c-8b477f95239b)
+![Captura de tela 2025-07-03 203614](https://github.com/user-attachments/assets/ae43bb0d-568d-435c-9548-f49f07bf3328)
+
 
 -> Use os botões para cadastrar novas categorias e tarefas.
 -> Suas tarefas aparecerão diretamente no seu painel.
