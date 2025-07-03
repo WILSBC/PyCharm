@@ -1,0 +1,25 @@
+{% extends "homepage.html" %}
+
+{% block titulo %}
+<title>Nova Tarefa</title>
+{% endblock %}
+
+{% block body %}
+<h2>Criar nova tarefa</h2>
+<form method="POST">
+    {{ form.csrf_token }}
+    <p>
+        {{ form.tarefas.label }}<br>
+        {{ form.tarefas(class="form-control") }}
+    </p>
+    <p>
+        {{ form.categoria_id.label }}<br>
+        {{ form.categoria_id(class="form-select") }}
+    </p>
+    <p>{{ form.botao_confirmacao(class="btn btn-primary") }}</p>
+  <div>
+        <a class="botao-link" href="{{ url_for('perfil', id_usuario=current_user.id) }}">Voltar para o Perfil</a>
+        <a class="botao-link" href="{{ url_for('logout') }}">Sair</a>
+    </div>
+  </form>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "homepage.html" %}
+
+{% block titulo %}
+<title>Nova Categoria</title>
+{% endblock %}
+
+{% block body %}
+<h2>Criar nova categoria</h2>
+<form method="POST">
+    {{ form.csrf_token }}
+    <p>
+        {{ form.nome.label }}<br>
+        {{ form.nome(class="form-control") }}
+    </p>
+    <p>{{ form.botao_confirmacao(class="btn btn-primary") }}</p>
+    <div>
+        <a class="botao-link" href="{{ url_for('perfil', id_usuario=current_user.id) }}">Voltar para o Perfil</a>
+        <a class="botao-link" href="{{ url_for('logout') }}">Sair</a>
+    </div>
+</form>
+{% endblock %}
+
+

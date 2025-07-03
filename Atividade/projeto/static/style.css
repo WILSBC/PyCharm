@@ -1,0 +1,90 @@
+body {
+    background-color: #333;
+    font-family: sans-serif;
+    color: white;
+}
+form {
+    background-color: #eeeeee;
+    color:black;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #e6e6ff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+a.botao-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align:center;
+    margin-top:20px;
+}
+a.botao-link:hover {
+    background-color: #666;
+}
+
+}
+
+.container {
+    background-color: #eee;
+    color:black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    width: 500px;
+}
+ul {
+    color: white;
+    padding-left:30px;
+}
+li {
+    mergin-bottom?: 8px;
+}
+label {
+    color: black;
+    font-weight: bold;
+}
+.container-principal {
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    background: #262626;
+    border-radius: 14px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.13);
+    padding: 32px 32px 48px 32px;
+    min-height: 500px;
+}
+
+

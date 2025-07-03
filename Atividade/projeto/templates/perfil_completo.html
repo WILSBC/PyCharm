@@ -1,0 +1,40 @@
+{% extends "homepage.html" %}
+
+{% block titulo %}
+<title>Perfil de {{ usuario.username }}</title>
+{% endblock %}
+
+{% block body %}
+<div class="container-principal">
+<h1>Bem-vindo, {{ usuario.username }}</h1>
+<p>Email: {{ usuario.email }}</p>
+
+<div class="foto-perfil">
+    {% for foto in usuario.fotos %}
+        <img src="{{ url_for('static', filename='fotos_posts/' ~ foto.imagem) }}" width="150" style="margin: 10px;">
+    {% endfor %}
+</div>
+
+<hr>
+
+<nav>
+    <a class="botao-link" href="{{ url_for('nova_categoria') }}">Cadastrar Categoria</a>
+    <a class="botao-link" href="{{ url_for('nova_tarefa') }}">Cadastrar Tarefa</a>
+    <a class="botao-link" href="{{ url_for('logout') }}">Sair</a>
+</nav>
+
+<hr>
+
+<h2>Minhas Tarefas</h2>
+<ul>
+    {% for tarefa in tarefas %}
+        <li>
+            {{ tarefa.tarefas }} - <strong>{{ tarefa.categoria.nome }}</strong>
+            <a class="botao-link" href="{{ url_for('excluir_tarefa', id=tarefa.id) }}">Excluir</a>
+        </li>
+    {% else %}
+        <li>Nenhuma tarefa cadastrada.</li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}
