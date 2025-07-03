@@ -33,7 +33,9 @@ Este é um projeto desenvolvido com Flask durante as aulas do curso técnico no 
 
 # Como usar o sistema
 -> Crie sua conta na tela inicial.
+![Captura de tela login ](https://github.com/user-attachments/assets/fa841cd5-7820-45df-994d-83e001efde79)
 -> Acesse seu perfil após o login.
+![Captura de tela 2025-07-03 201913](https://github.com/user-attachments/assets/2cfc01ac-e64a-4df4-b12c-8b477f95239b)
 -> Use os botões para cadastrar novas categorias e tarefas.
 -> Suas tarefas aparecerão diretamente no seu painel.
 -> É possível excluir tarefas clicando no botão “Excluir”.
