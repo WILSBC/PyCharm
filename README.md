@@ -42,6 +42,19 @@ Este é um projeto desenvolvido com Flask durante as aulas do curso técnico no 
 
 
 -> Use os botões para cadastrar novas categorias e tarefas.
+
+![Captura de tela 2025-07-03 201913](https://github.com/user-attachments/assets/e1bcce4f-bb71-4101-9bb6-87fd53dfbac4)
+
 -> Suas tarefas aparecerão diretamente no seu painel.
+
+![Captura de tela 2025-07-03 202759](https://github.com/user-attachments/assets/9b008665-bcb8-4430-96a9-fd03c8ae3bd6)
+
 -> É possível excluir tarefas clicando no botão “Excluir”.
--> gmUse o botão "Sair" para logout.
+
+![Captura de tela 2025-07-03 211302](https://github.com/user-attachments/assets/2e060f27-b03a-4c57-b1a7-2402efea7309)
+
+-> Use o botão "Sair" para logout.
+
+![Captura de tela 2025-07-03 211437](https://github.com/user-attachments/assets/9ba3e9da-61bc-48ce-9b49-a46db84ad7fa)
+
+
