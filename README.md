@@ -32,9 +32,13 @@ Este é um projeto desenvolvido com Flask durante as aulas do curso técnico no 
 -> pip install -r requirements.txt
 
 # Como usar o sistema
--> Crie sua conta na tela inicial.
+-> Entrar no criar sua conta na tela inicial.
 
 ![Captura de tela login ](https://github.com/user-attachments/assets/fa841cd5-7820-45df-994d-83e001efde79)
+
+-> Cadastre seus dados conta na tela.
+
+![Captura de tela 2025-07-03 212040](https://github.com/user-attachments/assets/a57e74e7-39bf-4ecf-b524-90c874f058d5)
 
 -> Acesse seu perfil após o login.
 
