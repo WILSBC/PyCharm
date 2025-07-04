@@ -68,7 +68,8 @@ def nova_categoria():
         nova = Categoria(nome=form.nome.data)
         database.session.add(nova)
         database.session.commit()
-        return redirect(url_for("perfil"))
+        return redirect(url_for("perfil", id_usuario=current_user.id))
+
     return render_template("nova_categoria.html", form=form)
 
 @app.route("/excluir-tarefa/<int:id>")
